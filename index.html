@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flatsome</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Vantely, sans-serif;
+        font-size: var(--nav-link-font-size);
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+</style>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav2">
+                <!-- Logo -->
+                <img src="images/logoCreado.png" alt="Logo">
+                <!-- Navegacion -->
+                <nav>
+                    <ul>
+                        <!-- Lupa -->
+                        <img src="images/lupa.png" class="lens" alt="lens">
+                        <li><a href="#">Demos</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Elements</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Login -->
+            <div>
+                <ul class="login">
+                    <li>
+                        <a href="#" class="shopCart">Login</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cart /$0,00
+                        </a>
+                    </li>
+                    <a href="#">
+                        <img src="images/carrito.png" alt="Carrito">
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <section class="buttons">
+            <div class="button1">
+                <img src="images/darklogo.png">
+                <a href="#">Demos</a>
+            </div>
+            <div class="button2">
+                <div class="button-number">
+                    $59
+                </div>
+                Buy Now
+            </div>
+        </section>
+        <!-- Texto de la cabecera -->
+        <section class="title">
+            <div>
+                <div>
+                    <h1>Change this to anything</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                </div>
+                <div>
+                    <a href="#">Shop Men</a>
+                    <a href="#">Shop Women</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Firma -->
+        <div class="svg-container">
+            <svg height="65" width="100">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:rgb(4, 73, 102);stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:rgb(150, 244, 255);stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <ellipse cx="50" cy="35" rx="42.5" ry="27.5" fill="url(#grad1)" />
+                <text fill="#ffffff" font-size="22.5" font-family="Verdana" x="25" y="43">MRG</text>
+            </svg>
+        </div>
+        <!-- Icons -->
+        <section class="icon">
+            <img src="images/estrella.png" alt="">
+            <span>Free Shipping all productos above 99$</span>
+            <img src="images/corazon.png" alt="">
+            <span>New products added everyday</span>
+            <img src="images/tick.png" alt="">
+            <span>Free Shipping all products above 99$</span>
+        </section>
+        <section class="featured-products">
+            <!-- FEATURED PRODUCTS -->
+            <div class="title-line-size">
+                <div class="title-line">
+                    <div class="line"></div>
+                    <h2>
+                        FEATURED PRODUCTS
+                    </h2>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <ul class="products">
+                <article><!-- Sweaters -->
+                    <div class="product-wrapper">
+                        <img src="images/sweaters.png">
+                        <a href="" class="categories">SWEATERS</a>
+                        <span>On1 Jersey UNIF-2</span>
+                        <span class="price">$39,00</span>
+                        <button class="quick-view">Quick view</button>
+                    </div>
+                </article>
+                <li id="articulo2">
+                    <article> <!-- Men -->
+                        <div class="product-wrapper">
+                            <img src="images/men.png">
+                            <a href="" class="categories">MEN</a>
+                            <span>Osaka Entry Tee Superdry 122</span>
+                            <span class="price">$29,00</span>
+                            <button class="quick-view">Quick view</button>
+                        </div>
+                    </article>
+                </li>
+                <li id="articulo3">
+                    <article> <!-- Shoes -->
+                        <div class="product-wrapper">
+                            <img src="images/shoes.png">
+                            <a href="" class="categories">SHOES</a>
+                            <span>All Star Canvas Hi Converse</span>
+                            <span class="price">$29,00</span>
+                            <button class="quick-view">Quick view</button>
+
+                        </div>
+                    </article>
+                </li>
+                <li id="articulo4">
+                    <article> <!-- Sweaters -->
+                        <div class="product-wrapper">
+                            <img src="images/sweaters2.png">
+                            <a href="" class="categories">SWEATERS</a>
+                            <span>Fluro Big Pullover Designers Remi</span>
+                            <span class="price">$49,00</span>
+                            <button class="quick-view">Quick view</button>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <!-- BROWSE -->
+        <section class="browse">
+            <div class="title-line-size-browse">
+                <div class="title-line-browse">
+                    <div class="line-browse"></div>
+                    <h2>
+                        BROWSE
+                    </h2>
+                    <div class="line-browse"></div>
+                </div>
+            </div>
+            <ul class="products2"> <!-- Clothing -->
+                <article>
+                    <a><img src="images/clothing.png" alt=""></a>
+                    <span class="image-text">Clothing</span>
+                    <span class="hover-text">12 products</span>
+
+                </article>
+                <article> <!-- Women -->
+                    <a><img src="images/women.png" alt=""></a>
+                    <span class="image-text">Women</span>
+                    <span class="hover-text">6 products</span>
+
+
+                </article>
+                <article> <!-- Booking -->
+                    <a><img src="images/booking.png" alt=""></a>
+                    <span class="image-text">Booking</span>
+                    <span class="hover-text">20 products</span>
+
+
+                </article>
+                <article> <!-- Men -->
+                    <a><img src="images/men2.png" alt=""></a>
+                    <span class="image-text">Men</span>
+                    <span class="hover-text">3 products</span>
+
+                </article>
+                <article> <!-- Bags -->
+                    <a><img src="images/bags.png" alt=""></a>
+                    <span class="image-text">Bags</span>
+                    <span class="hover-text">22 products</span>
+
+                </article>
+            </ul>
+        </section>
+        <!-- LATEST NEWS -->
+        <section class="latest-news">
+            <div class="title-line-size-news">
+                <div class="title-line-news">
+                    <div class="line-news"></div>
+                    <h2>
+                        LAST NEWS
+                    </h2>
+                    <div class="line-news"></div>
+                </div>
+            </div>
+            <ul class="products3"> <!-- Clothing -->
+                <article>
+                    <img src="images/welcome.png" alt="">
+                    <div class="square">
+                        <span class="square-number">19</span>
+                        <span>Nov</span>
+                    </div>
+                    <div class="text-products3">
+                        <h4>Welcome to Flatsome
+                            <a href="#"></a>
+                        </h4>
+                        <p>Welcom to WordPress. This is your first post. Edit or delete it. then start
+                            bloggin![...]
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/men3.png" alt="">
+                    <div class="square">
+                        <span class="square-number">13</span>
+                        <span>Oct</span>
+                    </div>
+                    <div class="text-products3">
+                        <h4>Just another post with a gallery
+                            <a href="#"></a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In sed vulputate massa.
+                            Fusse ante
+                            magna,[...]
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/women2.png" alt="">
+                    <div class="square">
+                        <span class="square-number">13</span>
+                        <span>Oct</span>
+                    </div>
+                    <div class="text-products3">
+                        <h4>A simple blog post
+                            <a href="#"></a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, set diam nonummy nibh
+                            euismod tincidunt
+                            ut[...]
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/videoBlog.png" alt="">
+                    <div class="square">
+                        <span class="square-number">01</span>
+                        <span>Jan</span>
+                    </div>
+                    <div class="text-products3">
+                        <h4>A video blog post
+                            <a href="#"></a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In sed vulputate massa.
+                            Fusse ante
+                            magna,[...]
+                        </p>
+                    </div>
+                </article>
+            </ul>
+        </section>
+        <!-- MULTIMEDIA -->
+        <section>
+            <div class="title-line-size-news">
+                <div class="title-line-news">
+                    <div class="line-news"></div>
+                    <h2>
+                        MULTIMEDIA
+                    </h2>
+                    <div class="line-news"></div>
+                </div>
+            </div>
+            <div class="multimedia-audio">
+                <!-- Audio -->
+                <audio controls>
+                    <source src="audio/Kygo, Gryffin, Calum Scott - Woke Up in Love (Lyrics).mp3" type="audio/mp3">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <div class="multimedia">
+                <!-- Video de Youtube -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UxICql__h4Q?si=mY3QfOefOoM0E_8N"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+                <!-- Video Multimedia -->
+                <video controls width="600" height="300">
+                    <source src="video/VideoMultimedia.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </section>
+        <!-- SIGNUP -->
+        <section class="signup-section">
+            <div class="signup-container">
+                <div class="signup-text">
+                    <h2>Signup for newsletter</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut
+                        laoreet dolore magna aliquam erat volutpat.
+                    </p>
+                </div>
+                <div class="signup-form">
+                    <form>
+                        <input type="email" placeholder="Your Email (required)">
+                        <button type="submit" value="Sign Up">Sign up</button>
+                    </form>
+                </div>
+            </div>
+            <!-- WAVES -->
+            <div class="wave-images">
+                <img src="images/wave1.png" alt="Waves Image 1" style="filter: invert(10) sepia(1) ;">
+                <img src="images/wave2.png" alt="Waves Image 2" style="filter:invert(0.2) hue-rotate(20deg);">
+                <img src="images/wave3.png" alt="Waves Image 3">
+                <img src="images/wave4.png" alt="Waves Image 4">
+                <img src="images/wave2.png" alt="Waves Image 5" style="filter:invert(0.2) hue-rotate(20deg);">
+                <img src="images/wave1.png" alt="Waves Image 6" style="filter: invert(10) sepia(1) ;">
+                <img src="images/wave3.png" alt="Waves Image 7">
+                <img src="images/wave6.png" alt="Waves Image 8" style=" -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Latest -->
+        <section class="top-products">
+            <div class="product-columns">
+                <div class="product-column">
+                    <span>Latest</span>
+                    <div class="divider-small">.</div>
+                    <ul>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest1.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>On1 Jersey Unif 2</h2>
+                                    <span>$39,00</span>
+                                </div>
+
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="">
+                                    <img src="images/latest2.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Osaka Entry Tee Superdry 12</h2>
+                                    <span>$29,00</span>
+
+                                </div>
+
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest3.png" alt="">
+
+                                </a>
+                                <div class="product-details">
+                                    <h2>All Star Canvas Hi Converse</h2>
+                                    <span>$29,00</span>
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest4.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Fluro Big Pullover Designers Remix</h2>
+                                    <span>$49,00</span>
+
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Best Selling -->
+                <div class="product-column">
+                    <span>Best Selling</span>
+                    <div class="divider-small"></div>
+                    <ul>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/bestSelling1.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Daisy Bag Sonia by Sonia Rykiel</h2>
+                                    <span>$2.999,00</span>
+                                </div>
+
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest1.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>On1 Jersey Unif 2</h2>
+                                    <span>$39,00</span>
+
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/bestSelling3.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Happy Ninja</h2>
+                                    <span>$19,00</span>
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/bestSelling4.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Beyond Top NLY Trend</h2>
+                                    <span>$101,00</span>
+                                </div>
+                            </article>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-column">
+                    <span>Featured</span>
+                    <div class="divider-small">.</div>
+
+                    <ul>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest2.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Osaka Entry Tee Superdry 12</h2>
+                                    <span>$29,00</span>
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest3.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>All Star Canvas Hi Convers</h2>
+                                    <span>$29,00</span>
+
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/latest4.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Fluro Big Pullover Designers Remix</h2>
+                                    <span>$49,00</span>
+
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/featured4.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Varanise CN Tee Hilfiger Denim</h2>
+                                    <div class="product-price">
+                                        <span class="cross-out">$19,00</span>
+                                        <span>$15,00</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-column">
+                    <span>Top Rated Products</span>
+                    <div class="divider-small">.</div>
+
+                    <ul>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/top1.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Union Sweater NLY Trend</h2>
+                                    <div class="stars">
+                                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                                    </div>
+                                    <span>$69,00</span>
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/top2.png" alt="">
+                                </a>
+                                <div class="product-details">
+                                    <h2>Pink Check Shirt</h2>
+                                    <div class="stars">
+                                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                                    </div>
+                                    <span>$29,00</span>
+                                </div>
+                            </article>
+                            <div class="divider-long">.</div>
+                        </li>
+                        <li>
+                            <article>
+                                <a href="#">
+                                    <img src="images/top3.png" alt="">
+                                </a>
+
+                                <div class="product-details">
+                                    <h2>Indigo Blue Tee Lee Jeans</h2>
+                                    <div class="stars">
+                                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="columns-container">
+            <article class="column">
+                <h2>About us</h2>
+                <div class="divider-small">.</div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="icon-image">
+                    <a href="https://es-es.facebook.com/" class="icon-facebook" target="_blank">
+                        <img src="images/facebook.png" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" class="icon-instagram" target="_blank">
+                        <img src="images/instagram.png" alt="instagram">
+                    </a>
+                    <a href="https://twitter.com/i/flow/login" class="icon-twitter" target="_blank">
+                        <img src="images/twitter.png" alt="twitter">
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/?hl=es#inbox" class="icon-email" target="_blank">
+                        <img src="images/email.png" alt="email">
+                    </a>
+                    <a href="https://www.pinterest.es/" class="icon-pinterest" target="_blank">
+                        <img src="images/pinterest.png" alt="pinterest">
+                    </a>
+                </div>
+            </article>
+
+            <article class="column">
+                <h2>Latest News</h2>
+                <div class="divider-small">.</div>
+                <ul>
+                    <li>
+                        <div class="column-square">
+                            <div class="square2">
+                                <span class="number-square2">19</span>
+                                <span>Nov</span>
+                            </div>
+                            <div>
+                                <a href="#">Welcome to Flatsome</a>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="divider-long">.</div>
+                    <li>
+                        <div class="column-square">
+                            <div class="square2">
+                                <span class="number-square2">13</span>
+                                <span>Oct</span>
+                            </div>
+                            <div>
+                                <a href="#">Just another post with A Gallery</a>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="divider-long">.</div>
+
+                    <li>
+                        <div class="column-square">
+                            <div class="square2">
+                                <span class="number-square2">13</span>
+                                <span>Oct</span>
+                            </div>
+                            <div>
+                                <a href="#">A Simple Blog Post</a>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="divider-long">.</div>
+
+                    <li>
+                        <div class="column-square">
+                            <div class="square2">
+                                <span class="number-square2">01</span>
+                                <span>Jan</span>
+                            </div>
+                            <div>
+                                <a href="#">A Video Blog Post</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <article class="column">
+                <h2>Tags</h2>
+                <div class="divider-small">.</div>
+                <div class="tags">
+                    <ul>
+                        <li>
+                            <a href="#">bag</a>
+                        </li>
+                        <li><a href="#">classic</a></li>
+                        <li> <a href="#">Converse</a></li>
+                        <li><a href="#">Diesel</a></li>
+                        <li><a href="#">fit</a></li>
+                        <li> <a href="#">green</a></li>
+                        <li><a href="#">Jack and Jones</a></li>
+                        <li><a href="#">Jack and Jones-2</a></li>
+                        <li> <a href="#">jeans</a></li>
+                        <li><a href="#">Jumper</a></li>
+                        <li><a href="#">leather</a></li>
+                        <li><a href="#">Lee</a></li>
+                        <li><a href="#">levis</a></li>
+                        <li> <a href="#">man</a></li>
+                        <li> <a href="#">nypd</a></li>
+                        <li> <a href="#">party</a></li>
+                        <li><a href="#">pink</a></li>
+                        <li><a href="#">River Island</a></li>
+                        <li><a href="#">rock chick</a></li>
+                        <li><a href="#">run</a></li>
+                        <li><a href="#">shoe</a></li>
+                        <li> <a href="#">stars</a></li>
+                        <li><a href="#">sweden</a></li>
+                        <li><a href="#">t-shirt</a></li>
+                        <li><a href="#">vans</a></li>
+                        <li><a href="#">washed-out</a></li>
+                        <li><a href="#">white</a></li>
+                        <li><a href="#">women</a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="column">
+                <h2>Signup for newsletter</h2>
+                <div class="divider-small">.</div>
+
+                <p>Signup to get news about Flatsome & WooCommerce. We don't spam!</p>
+                <form>
+                    <span>
+                        <input type="text" value="Your Email (required)">
+                    </span>
+                    <p>
+                        <input type="submit" value="Sign Up">
+                    </p>
+                </form>
+            </article>
+        </section>
+        <section class="custom-section">
+            <div class="container">
+                <ul class="image-list">
+                    <li><img src="images/visa.png" alt="visa"></li>
+                    <li><img src="images/paypal.png" alt="paypal"></li>
+                    <li><img src="images/stripe.png" alt="stripe"></li>
+                    <li><img src="images/mastercard.png" alt="mastercard"></li>
+                    <li><img src="images/cashondelivery.png" alt="cashondelivery"></li>
+                </ul>
+                <ul class="word-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Our Stores</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Faq</a></li>
+                </ul>
+                <div class="footer">
+                    Copyright 2023 © Flatsome Theme
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
