@@ -338,11 +338,6 @@ main {
     width: 16px;
 }
 
-.wave-images img {
-    height: auto;
-    width: 12.5%;
-}
-
 .products article img {
     max-width: 100%;
     width: var(--products1-img-width);
@@ -630,17 +625,6 @@ main {
     text-transform: uppercase;
     text-shadow: 2px 3px 3px var(--line-color);
     display: flex;
-    justify-content: center;
-}
-
-.multimedia-audio{
-    display: flex;
-    justify-content: center;
-}
-
-.multimedia{
-    display: flex;
-    align-items: flex-end;
     justify-content: center;
 }
 
